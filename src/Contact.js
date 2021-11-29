@@ -12,12 +12,18 @@ function Contact() {
                             <p className="hire__text white">I am available for freelance work. Connect with me via phone:</p>
                            <p className="hire__text white"><strong>+8801305398487</strong> or email <strong>parvez.jnu.cse.16@gmail.com</strong></p>
                         </div>
-                        <div className="input__box">
-                           <input type="text" className="contact name" placeholder="Your name *" />
-                           <input type="text" className="contact email" placeholder="Your Email *" />
-                           <input type="text" className="contact subject" placeholder="Write a Subject" />
-                           <textarea name="message" id="message" placeholder="Write Your message"></textarea>
-                           <button className="btn contact pointer" type="submit">Submit</button>
+                        <div>
+                        <br />
+                         <br />
+                            <h1>To contact me <br />
+                            <br />Submit your information here </h1>
+                            <br />
+                            <br />
+                           
+                           <a target='_blank' href="https://form.jotform.com/213326755801050">
+                  <button className="about btn pointer">Contact Form </button>
+                </a>
+                           
                         </div>
                     </div>
                 </div>
